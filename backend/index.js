@@ -26,7 +26,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
 //DBconfig
- mongoose.connect('mongodb+srv://BigBoi0429:Saip12345@cluster0.voh8roy.mongodb.net/?retryWrites=true&w=majority',{
+ mongoose.connect('',{ //mongodburi
     useNewUrlParser: true,
     useUnifiedTopology: true
 
