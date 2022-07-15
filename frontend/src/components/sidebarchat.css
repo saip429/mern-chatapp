@@ -1,0 +1,12 @@
+.sidebarchat{
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+}
+.sidebarchat--info{
+margin-left: 1rem;
+margin-top: 0;
+}
+

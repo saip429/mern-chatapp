@@ -1,0 +1,96 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.chat--header{
+    display: flex;
+    
+align-items: center;
+border-bottom: 2px solid rgba(0,0,0,0.45);
+}
+.chat--header--info{
+    flex: 1;
+    padding-left: 1rem;
+}
+.chat--header--info p{
+    color: rgba(0,0,0,0.55);
+}
+
+.chat--body{
+    position: relative;
+    flex: 1;
+    background-image: url('https://qph.cf2.quoracdn.net/main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7-lq');
+padding: 0.05rem;
+background-position: center;
+background-repeat: repeat;
+overflow: scroll;
+}
+.chat--msg{
+    position: relative;
+    
+    font-size: medium;
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 12px;
+    
+   
+    background-color: white;
+}
+
+.chat--timestamp{
+    font-weight: 800;
+color: gray;
+    font-size: xx-small;
+    margin-left: 1rem;
+}
+.chat--name{
+    font-weight: bold;
+
+}
+.chat--reciever{
+    
+   
+    font-size: large;
+    width: fit-content;
+    padding: 0.25rem;
+    border-radius: 12px;
+    
+   margin-left: auto;
+    background-color: rgb(139, 234, 139);
+}
+.chat--footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.chat--msg--form{
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    
+    }
+.chat--msg--form input{
+    flex: 1;
+    border-radius: 12px;
+    padding: 0.75rem;
+    border: none;
+}
+
+.chat--msg--form button{
+    border: none;
+ 
+}
+
+.chat--msg--form button:hover{
+    color: blue;
+}
+
+.no--render{
+    display: none;
+}

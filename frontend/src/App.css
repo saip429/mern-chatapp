@@ -1,0 +1,20 @@
+.app{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #dadbd3;}
+
+    .app--body{
+        display: flex;
+        margin-top: -50;
+        width: 80vw;
+        max-width: 80vw;
+        background-color: #ededed;
+        height: 90vh;
+        border: 2px ;
+        border-radius: 12px;
+       padding: 10px;
+        box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+        
+        
+    }
